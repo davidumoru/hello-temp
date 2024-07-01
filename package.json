@@ -4,7 +4,9 @@
   "description": "## HNG II (Stage One Task - Backend Track)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Starting build process...' && npm install",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
